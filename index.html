@@ -97,7 +97,6 @@
     const names = [
       "Dad",
       "Mum",
-      "Auntie Naomi",
       "Teddy",
       "Oscar",
       "Ivy",
@@ -111,11 +110,9 @@
 
     const exclusions = {
       "Ivy": ["Bill"],
-      "Bill": ["Ivy", "Mum", "Auntie Naomi"],
+      "Bill": ["Ivy", "Mum"],
       "Mum": ["Dad", "Bill"],
-      "Dad": ["Mum"],
-      "Auntie Naomi": ["Bill"]
-    };
+      "Dad": ["Mum"],  };
 
     let pairs = {};
     let revealed = new Set();
